@@ -2,8 +2,7 @@
 
 **De novo assembly, variant calling, and pangenome construction from Oxford Nanopore sequencing of cultured *Plasmodium falciparum* isolates.**
 
-Developed at **MRCG@LSHTM**, Malaria Population Biology Laboratory (Prof. Alfred Amambua-Ngwa).  
-Validated on R10.4.1 flow cells (SUP and HAC basecalling) using 38 Gambian and West African isolates.
+Validated on R10.4.1 flow cells (SUP and HAC basecalling) using Gambian and West African isolates.
 
 ---
 
