@@ -54,6 +54,7 @@ ${PIXI}/extract_kraken_reads.py \
     -k ${KRAKEN_OUT} \
     -s ${INPUT} \
     -o /dev/stdout \
+    -r {output.report} \
     -t 2 4751 \
     --exclude \
     --include-children \

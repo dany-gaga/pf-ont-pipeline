@@ -48,3 +48,5 @@ Set `--length` based on the run N50. Using 1000 bp on Run 1+2 data (N50 ~763 bp)
 - Module system (lua) broken on some nodes — use full pixi paths as fallback
 - SLURM jobs do not inherit PATH — use full paths to all tools
 - `$SNPEFF_JAR` not set by the `snpEff/5.2` module
+
+**extract_kraken_reads.py:** The `-r` (report file) flag is **required** despite not being shown as mandatory in `--help`. Without it: `ERROR: --report not specified`. Always include `-r kraken_report.txt` in the command. The report is produced by the `kraken2 --report` flag in the previous step.
